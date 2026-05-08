@@ -1,10 +1,5 @@
 import pickle
 import streamlit as st
-st.set_page_config(
-    page_title="SMS Spam Classifier",
-    page_icon="📩",
-    layout="centered"
-)
 import nltk
 import os
 nltk.data.path.append(os.path.join(os.getcwd(), "nltk_data"))
@@ -38,6 +33,11 @@ def text_pp(text):
 tfidf=pickle.load(open('Models/Vectorizer.pkl', 'rb'))
 model = pickle.load(open('Models/model.pkl', 'rb'))
 
+st.set_page_config(
+    page_title="SMS Spam Classifier",
+    page_icon="📩",
+    layout="centered"
+)
 st.title("Email Spam Classifier")
 sms = st.text_input("Enter the sms")
 
