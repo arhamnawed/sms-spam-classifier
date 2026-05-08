@@ -8,7 +8,13 @@
 ![Scikit Learn](https://img.shields.io/badge/Framework-Scikit--Learn-yellow?style=flat)
 
 ---
+## 🌍 Live Demo
 
+🔗 **[arhams-sms-spam-classifier.streamlit.app](https://arhams-sms-spam-classifier.streamlit.app/)**
+
+> No installation needed — open the link and start predicting!
+
+---
 ## 🚀 Features
 
 - 📩 Detects spam and legitimate SMS messages
