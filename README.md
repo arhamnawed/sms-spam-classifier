@@ -21,6 +21,15 @@
 - 💾 Exportable trained model and vectorizer using Pickle
 
 ---
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td><strong>Main Interface</strong><br/><img src="Screenshots/UI.png" width="350"/></td>
+    <td><strong>Prediction Result Ham</strong><br/><img src="Screenshots/ham.png" width="350"/></td>
+    <td><strong>Prediction Result Spam</strong><br/><img src="Screenshots/spam.png" width="350"/></td>
+  </tr>
+</table>
 
 ## 🧠 How It Works
 
