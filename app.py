@@ -1,11 +1,17 @@
 import pickle
 import streamlit as st
+st.set_page_config(
+    page_title="SMS Spam Classifier",
+    page_icon="📩",
+    layout="centered"
+)
 import nltk
 import os
 nltk.data.path.append(os.path.join(os.getcwd(), "nltk_data"))
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import string
+
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
 
