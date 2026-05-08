@@ -27,8 +27,8 @@ def text_pp(text):
         y.append(ps.stem(i))
     return " ".join(y)
 
-tfidf=pickle.load(open('Vectorizer.pkl','rb'))
-model = pickle.load(open('model.pkl','rb'))
+tfidf=pickle.load(open('Models/Vectorizer.pkl', 'rb'))
+model = pickle.load(open('Models/model.pkl', 'rb'))
 
 st.title("Email Spam Classifier")
 sms = st.text_input("Enter the sms")
