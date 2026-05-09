@@ -233,4 +233,4 @@ Save Model and Vectorizer
 **Mohammad Arham Nawed**  
 B.Tech ECE (Embedded Systems & IoT)
 
-[![GitHub](https://img.shields.io/badge/GitHub-your--github-black?style=flat&logo=github)](https://github.com/your-username)
+[![GitHub](https://img.shields.io/badge/GitHub-your--github-black?style=flat&logo=github)](https://github.com/arhamnawed)
