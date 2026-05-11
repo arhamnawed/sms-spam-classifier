@@ -2,7 +2,7 @@
 
 > An NLP-powered machine learning project that detects whether an SMS message is **Spam** or **Ham (Not Spam)** using advanced text preprocessing and classification models.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat&logo=python)
 ![ML](https://img.shields.io/badge/ML-Random%20Forest-orange?style=flat)
 ![NLP](https://img.shields.io/badge/NLP-TF--IDF-green?style=flat)
 ![Scikit Learn](https://img.shields.io/badge/Framework-Scikit--Learn-yellow?style=flat)
