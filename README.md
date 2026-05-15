@@ -118,16 +118,18 @@ def text_pp(text):
 
 The following models were trained and evaluated:
 
-| Model | Purpose |
-|---|---|
-| Gaussian Naive Bayes | Baseline probabilistic model |
-| Multinomial Naive Bayes | NLP text classification |
-| Bernoulli Naive Bayes | Binary feature classification |
-| Random Forest Classifier | Final selected model |
-| Extra Trees Classifier | Ensemble learning |
-| AdaBoost Classifier | Boosting model |
-| Voting Classifier | Ensemble voting |
-| Stacking Classifier | Meta ensemble learning |
+| Model                              | Purpose |
+|------------------------------------|---|
+| Gaussian Naive Bayes               | Baseline probabilistic model |
+| Multinomial Naive Bayes            | NLP text classification |
+| Bernoulli Naive Bayes              | Binary feature classification |
+| Random Forest Classifier           | Final selected model |
+| Support Vector Classifier (SVC)    | High-dimensional margin-based classification|
+| Stochastic Gradient Descent (SGDC) | Efficient large-scale linear classification | 
+| Extra Trees Classifier             | Ensemble learning |
+| AdaBoost Classifier                | Boosting model |
+| Voting Classifier                  | Ensemble voting |
+| Stacking Classifier                | Meta ensemble learning |
 
 ---
 
@@ -136,13 +138,13 @@ The following models were trained and evaluated:
 The final selected model:
 
 - ✅ Random Forest Classifier
-- ✅ TF-IDF Vectorization (`max_features=2000`)
+- ✅ TF-IDF Vectorization (`max_features=8000`)
 - ✅ Saved using Pickle serialization
 
 Generated files:
 
 ```text
-model.pkl
+Model.pkl
 Vectorizer.pkl
 ```
 
@@ -167,10 +169,9 @@ Vectorizer.pkl
 ```text
 sms-spam-detection/
 ├── model.ipynb            # Main Jupyter notebook
-├── model.pkl              # Trained ML model
+├── Model.pkl              # Trained ML model
 ├── Vectorizer.pkl         # TF-IDF vectorizer
-├── spam_ham_india.csv     # Dataset
-├── cleaned_sms_spam.csv   # Dataset
+├── Updated_Dataset.csv     # Dataset
 ├── requirements.txt       # Dependencies
 └── README.md
 ```
@@ -217,14 +218,16 @@ Save Model and Vectorizer
 ```
 
 ---
-
-## 🔮 Future Improvements
-
-- Add deep learning models (LSTM/BERT)
+## 🔮 Recent Improvements
 - Build a Streamlit or Flask web app
 - Add real-time SMS prediction interface
 - Improve dataset diversity
 - Hyperparameter optimization
+
+## 🔮 Future Improvements
+
+- Add deep learning models (LSTM/BERT)
+
 
 ---
 
