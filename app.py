@@ -22,23 +22,18 @@ def text_pp(text):
     y.clear()
     for i in text:
         if i not in stopwords.words('english') and i not in string.punctuation:
-            y.append(i)
-
-    text = y[:]
-    y.clear()
-    for i in text:
-        y.append(ps.stem(i))
+            y.append(ps.stem(i))
     return " ".join(y)
 
 tfidf=pickle.load(open('Models/Vectorizer.pkl', 'rb'))
-model = pickle.load(open('Models/model.pkl', 'rb'))
+model = pickle.load(open('Models/Model.pkl', 'rb'))
 
 st.set_page_config(
     page_title="SMS Spam Classifier",
     page_icon="📩",
     layout="centered"
 )
-st.title("Email Spam Classifier")
+st.title("SMS Spam Classifier")
 sms = st.text_input("Enter the sms")
 
 if st.button("Predict"):
